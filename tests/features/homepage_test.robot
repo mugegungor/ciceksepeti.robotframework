@@ -15,6 +15,7 @@ Test Teardown  Close All Driver
 Cıceksepetı homepage for product control
    [Tags]  @smoke  @homepage
     go to    https://www.ciceksepeti.com/
+    Element Visible and Click  ${Intro_selectPreview_img}
     Categories for flowers select in homepage
     switch window  new
     Check Element Text  ${Product_categoriesFlowersTitle_text}  Equal  Saksıda Dieffenbachia Çiçeği
